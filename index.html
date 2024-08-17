@@ -11,12 +11,11 @@
             body{
                 background-color: #E3E6E6;
             }
-            header{
-                
-            }
+           
             header ul li:hover{
                 border: 1px solid #fff;
-                border-radius: 4px;                
+                border-radius: 4px; 
+                           
             }.a_d-menu{
 
             }
@@ -38,26 +37,26 @@
                 padding-left: 2em;
                            
             }
-            .a_tbdr{
-                border: 1px solid red;
-            }.h_top{
+            
+            .h_top{
                 height: 60px; 
                 background-color: #131921;  
                              
             }.h_top img{
                 width: 90px;
-                position: absolute;                 
+                position: relative;                 
                 
             }
             header form:focus-within{
                outline: 2px solid #FF9900 !important;
                 border-radius: 5px;
+                width: 530px !important;
                
             } .a_search{
-                width: 367px !important;
+               width: 530px !important;
                 box-shadow: none !important;
                 outline: none !important;
-                margin-left: 10px;
+                
             }.a_d-menu{
                 height: 370px;
                 overflow-y: scroll;
@@ -81,40 +80,45 @@
                 height: 40px;
                 background-color: #232F3E;
             }main{
-               color:black 
+              color:black ;
+            
             }main img{
                 width: 100%; 
                 background-size: cover;
-                height: 400px;
-                
+                height: 400px;                
             }
-            main >div{
-                
-            }
+            
            .a_gradient{             
-                background-image: -webkit-linear-gradient(top, #FD5272 5%,#E3E6E6 15%,#E3E6E6 100%);
+                background-image: -webkit-linear-gradient(top, #FFCBB6 8%,#FFF6B1 20% ,#E3E6E6 30%);
           }
             .a_main1{
                 height: 250px !important;
                 border:1px solid black;
+               
             }.a_main2{
                 height: 420px;
-                border:1px solid blue;
-            } .a_main3{
-                height: 288px;
-                border:1px solid rgb(133, 133, 141);
+            
+                margin: 15px;
+            } 
+            .a_main3{
+                height: 428px !important;
+              
+                margin: 15px;
             }
             .a_main4{
-                height: 283px;
+                height: 283px !important;
+                margin: 15px;
+                
             }
             .a_main5{
-                height: 420px;
+                height: 283px;
+                margin:15px;
             }.a_main6{
-                height: 286px;
+                height: 486px;
             }.a_main7{
-                height: 282px;
+                height: 482px;
             }.a_main8{
-                height: 425px;
+                height: 325px;
             }.a_main9{
                 height: 286px;
             }.a_main10{
@@ -135,7 +139,7 @@
             }
             .a_main12 > div{            
                 display: inline-block;             
-                padding-left:30px;
+                
             } .right{  
                 font-size: 11px;
                 font-weight: 600;
@@ -231,11 +235,42 @@
                 color:#FFC107;
                 text-decoration: underline;
             }.a_slider_control{
-                border:3px solid red;
+                                
                 height: 250px;
                 width: 84px;
             }.a_slider_control:active{
-                border: 1px solid #fff;
+                border:3px solid #008296;
+                
+            }.a_main2 > .row{
+                height: 421px !important;
+            }
+            .a_main2 h4,.a_main3 h4,.a_main5 h4, .a_main6 h4 ,.a_main7{
+                font-weight: 700;
+                font-size: 21px;
+            }.a_main2 span,.a_main3 span, .a_main6 span,.a_main7 span {
+                font-size: 10px;
+                font-weight: 700;
+                
+                
+            }.a_main2 a,.a_main3 a, .a_main4 a ,.a_main6 a, .a_main7 a{
+                text-decoration: none;
+                color: #008296;
+                font-size: 14px;          
+
+
+            }.a_main2 a:hover, .a_main2 a:hover,.a_main4 a:hover,.a_main6 a:hover, .a_main7 a:hover {
+                color:#C7511F;
+            }.a_cc_main3,.a_cc_main5{
+                width: 43px;
+                height: 100px;
+            }.a_main4 .row{
+                height: 420px;
+            }.a_main4 img, .a_main5 img, .a_main6 img,.a_main7 img  {
+                background-image: cover;
+                height: 80%;
+            }.a_main8 img{
+                height: 300px;
+                width: 100%;
             }
         </style>
     </head>
@@ -281,23 +316,23 @@
           </div>
         <header class="">
             <div class="h_top">
-                <div class="">
-                    <div class="col-5">
-                        <ul class="nav ">
-                            <li class="nav-item w-50 p-0 m-0">
-                              <a class="nav-link active h-100 " aria-current="page" href="#">
-                                <img width="80" src="./img/amazon-dark-logo1.png" alt="logo">
+                <div class="row m-0 h-100">
+                    <div class="col-3">
+                        <ul class="nav h-100">
+                            <li class="nav-item  p-0  mt-1 mb-1 ">
+                              <a class="nav-link active h-100 p-1 " aria-current="page" href="#">
+                                <img width="114" class=" img-fluid" src="./img/amazon-dark-logo1.png" alt="logo">
                               </a>
                             </li>
-                            <li class="nav-item"  style=" margin-left: 125px; font-size: 13px; margin-top: 0px">
+                            <li class="nav-item"  style=" margin-left: 125px; font-size: 13px; margin-top: 5px; position: absolute;">
                               <a class="nav-link ps-1" href="#">
-                                <span class="d-block text-white" style="margin-top: -10px; padding-top: 0px !important; font-size: .9em; color: #e3ded3 !important;">Delvering to Mumbai 400001</span>
+                                <span class="d-block text-white" style="  font-size: .9em; color: #e3ded3 !important;">Delvering to Mumbai 400001</span>
                                 <span class="d-block fw-bolder text-white position-relative" ><i class="fa-solid fa-location-dot position-absolute" style="left:-15px; font-size: 18px;"></i>Update location</span>
                               </a>
                             </li>                            
                           </ul>
                     </div>
-                    <div class="col-4 p-0" style="position: absolute; top:10px; left:309px">
+                    <div class="col-6 p-0" style="position: absolute; top:10px; left:309px">
                         <form action="" class="row">
                             <div class="col-1 p-0">
                                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
@@ -329,20 +364,19 @@
                                 </div>
                               </div></div>
                             <div class="col-8 p-0"> 
-                                <input class="form-control rounded-0 a_search" type="search" /></div>
-                            <div class="col-3 p-0 text-end">
+                                <input class="form-control rounded-0 a_search " style="margin-left: 0px;width: 100% !important;" type="search" /></div>
+                            <div class="col-1 p-0 " style="margin-left:0px">
                                 <button type="submit" class=" btn btn-warning rounded-0 rounded-end"><i class="fa-solid fa-magnifying-glass"></i></button>
                             </div>                           
                         </form>
                     </div>
-                    <div class="col-3 a_tbdr d-block" style=" margin-top: -56px; margin-left:750px; padding-left: 30px;padding-bottom: 0px; width: 100%;">
-                        <ul class="nav a_menu" >
+                    <div class="col-3  d-block" style=" margin-top: -56px; margin-left:800px; padding-left: 30px;padding-bottom: 0px; width: 100%;">
+                        <ul class="nav a_menu " > 
                             <li class="nav-item h-100 position-relative">
                               <a class="nav-link active text-white h-100 fw-bolder" aria-current="page" href="#" style="font-size:0.9em"> 
                                 <span class="sprite d-inline-block"></span>
-                                EN <i class="fa-solid fa-caret-down" style="color:#A7ACB2"></i></a>
-                                <ul class=" nav a_submenu position-absolute bg-white top-0 start-0 rounded-1">
-                                    
+                                EN <i class="fa-solid fa-caret-down " style="color:#A7ACB2"></i></a>
+                                <ul class=" nav a_submenu position-absolute bg-white top-0 start-0 rounded-1">                                    
                                     <li class="nav-item">
                                         <a href="#" class="nav-link  active">  English - EN <input type="radio"  />
                                         </a>
@@ -472,7 +506,7 @@
                               </a>
                             </li>
                             <li class="nav-item h-100 position-relative">
-                                <a class="nav-link text-white fw-bolder" href="#"><i class="fa-solid fa-cart-shopping " style=" font-size: 1.5em;"></i>Cart</a>
+                                <a class="nav-link text-white fw-bolder h-100" href="#"><i class="fa-solid fa-cart-shopping " style=" font-size: 1.5em;"></i>Cart</a>
                               </li>
                             
                           </ul>
@@ -511,9 +545,9 @@
                   </ul>
             </div>
         </header>
-        <main class="container-fluid">   
-            
-                <div class="a_main1 h-100">
+        <main class=" a_gradient">   
+            <div class="container-fluid">
+                <div class="a_main1 position-relative" style="z-index: 1000; border: none;">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner" style="height: 100% !important; width: 100%;">
                           <div class="carousel-item active">
@@ -540,48 +574,626 @@
                             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/JULY/GW/u499_3000._CB567285685_.jpg" class="d-block w-100" alt="...">
                           </div>
                     </div>
-                        <button class="carousel-control-prev a_slider_control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <button class="carousel-control-prev a_slider_control rounded-1" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next a_slider_control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <button class="carousel-control-next a_slider_control rounded-1" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
                       
                 </div>
                 </div>
-                <div class="a_main2">2</div>
-                <div class="a_main3">3</div>
-                <div class="a_main4">4</div>
-                <div class="a_main5 a_tbdr">5</div>
-                <div class="a_main6 a_tbdr">6</div>
-                <div class="a_main7 a_tbdr">7</div>
-                <div class="a_main8 a_tbdr">
-                    <div class="row">
-                        <div class="col-8 offset-2">
-                            8
+              
+                <div class="">
+                <div class="a_main2 h-100 w-100">
+                    <div class="  a_mainbtmCon position-relative h-100 " style="z-index: 2000;">
+                        <div class="row m-0 h-100">
+                            <div class="col  ps-2 pe-2 h-100">
+                                <div class="bg-white d-block p-3 ">
+                                    <h4>Deals on smartphones that suits your budget</h4>
+                                    <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 70px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/V3/PC/PC_QC_372x232_1._SY232_CB568164155_.jpg"  alt="">
+                                            <span>Budget | Under ₹10,000</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-3 h-25">
+                                            <img style="height: 70px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/V3/PC/PC_QC_372x232_1._SY232_CB568164155_.jpg"  alt="">
+                                            <span>Mid range | ₹10,000 - ₹25,000</span>
+                                        </div>
+                                     </div>
+                                        <div class="row m-0 h-25">
+                                            <div class="a_part-4 col-6 ps-2">
+                                                <img style="height: 70px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/V3/PC/PC_QC_372x232_1._SY232_CB568164155_.jpg"  alt="">
+                                                <span>Premium | ₹25,000 - ₹40,000</span>
+                                            </div>
+                                                <div class="a_part-4 col-6 ps-2 pb-2">
+                                                    <img style="height: 70px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/V3/PC/PC_QC_372x232_1._SY232_CB568164155_.jpg"  alt="">
+                                                    <span>Ultra premium | Above ₹40,000</span>
+                                                </div>
+                                    <a href="#">See all Offers</a>
+
+                                        </div>
+                                        
+                            </div>
+                        </div>
+                            <div class="col  ps-2 pe-2 ">
+                                <div class="bg-white  p-3">
+                                    <h4>Minimum 50% off | Home, kitchen & more</h4>
+                                    <div class="row m-0 h-25">
+                                            <div class="a_part-4 col-6 pb-2 h-25 ">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Aug24_OHL/PC_Lifestyle_QC_372x232-1._SY232_CB566486308_.jpg"  alt="">
+                                                <span> Kitchen essentails</span>
+                                            </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Aug24_OHL/PC_Lifestyle_QC_372x232-2._SY232_CB566486308_.jpg"  alt="">
+                                                <span>Home decor </span>
+                                            </div>
+                                    </div>
+                                     <div class="row m-0 h-25 mt-1">
+                                            <div class="a_part-4 col-6 ps-2">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Aug24_OHL/PC_Lifestyle_QC_372x232-3._SY232_CB566486308_.jpg"  alt="">
+                                                <span>Furniture</span>
+                                            </div>
+                                                <div class="a_part-4 col-6 ps-2 pb-2">
+                                                    <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Aug24_OHL/PC_Lifestyle_QC_372x232-4._SY232_CB566486308_.jpg"  alt="">
+                                                    <span>Home Improvement</span>
+                                                </div>
+                                                <a href="#" style="margin-top:11px ;">See all Offers</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col  ps-2 pe-2  p-0">
+                                <div class="bg-white  p-2">
+                                    <h4>Great Freedom Sale | Shop now</h4>
+                                    <img style="height:250px; margin-bottom: 18px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/AugART24/GW/MainEventDATES/AugART24_GW_PC_CC_Event_2x_V2._SY608_CB566707753_.jpg" alt="">
+                                    <a href="#">See all Offers</a>
+                                </div>
+                            </div>
+                            <div class="col   ps-2 pe-2 ">
+                                <div class="bg-white p-3" style="height: 125px;">
+                                    <h4>Sign in for your best experience</h4>
+                                    <form action="">
+                                        <input type="submit" name="Sign in securely" value="Sign in securely" class="rounded-0 rounded-5" style="width: 238px; height: 29px; background-color: #F7CA00; outline: none; border: none;">
+                                    </form>
+                                </div>
+                                <div class="bg-white  mt-3 ">
+                                 <img style="height: 225px;" src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7c0b1d91-9510-4077-bb71-7aeaf048a266.jpg" alt="">  
+                                 
+                                </div>
+                               
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="a_main9 a_tbdr"></div>
-                <div class="a_main10 a_tbdr"></div>
-                <div class="a_main11 a_tbdr"></div>
+                <div class="a_main3">
+                    <div class="row m-0 h-100">
+                        <div class="col  ps-3 pe-3 h-100">
+                            <div class="bg-white d-block p-3 ">
+                                <h4>Deals on smartphones that suits your budget</h4>
+                                <div class="row m-0 h-25">
+                                    <div class=" col-6 pb-2 h-25 ">
+                                        <img style="height: 80px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/AA/MSO/Size/PC/32_inch_PC_QC_372x232._SY232_CB568213197_.jpg"  alt="">
+                                        <span>Budget | Under ₹10,000</span>
+                                    </div>
+                                    <div class=" col-6 ps-2 pb-3 h-25">
+                                        <img style="height: 80px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/AA/MSO/Size/PC/43_inch_PC_QC_372x232._SY232_CB568213197_.jpg"  alt="">
+                                        <span>Mid range | ₹10,000 - ₹25,000</span>
+                                    </div>
+                                 </div>
+                                    <div class="row m-0 h-25">
+                                        <div class=" col-6 ps-2">
+                                            <img style="height: 80px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/AA/MSO/Size/PC/55_inch_PC_QC_372x232._SY232_CB568213197_.jpg"  alt="">
+                                            <span>Premium | ₹25,000 - ₹40,000</span>
+                                        </div>
+                                            <div class="col-6 ps-2 pb-2">
+                                                <img style="height: 80px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/AA/MSO/Size/PC/65_inch_PC_QC_372x232._SY232_CB568213197_.jpg" alt="">
+                                                <span>Ultra premium | Above ₹40,000</span>
+                                            </div>
+                                <a href="#">See all Offers</a>
+                            </div>
+                                    
+                        </div>
+                    </div>
+                    <div class="col  ps-2 pe-2  p-0">
+                        <div class="bg-white p-2">
+                            <h4>Great Freedom Sale | Shop now</h4>
+                            <img style="height:270px; margin-bottom: 18px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Augart/camera/push/PC_CC_758x6082x._SY608_CB567909772_.jpg" alt="">
+                            <a href="#">See all Offers</a>
+                        </div>
+                    </div>
+                        <div class="col  ps-2 pe-2 ">
+                            <div class="bg-white  p-3">
+                                <h4>Minimum 50% off | Home, kitchen & more</h4>
+                                <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/AugART/GW/PCQC/2x/Tops_372x232._SY232_CB568283108_.jpg"  alt="">
+                                            <span>Top</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/AugART/GW/PCQC/2x/Kurtas_372x232._SY232_CB568283108_.jpg"  alt="">
+                                            <span> Kurtas </span>
+                                        </div>
+                                </div>
+                                 <div class="row m-0 h-25 mt-3">
+                                        <div class="a_part-4 col-6 ps-2">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/AugART/GW/PCQC/2x/Dresses_372x232._SY232_CB568283108_.jpg"  alt="">
+                                            <span>Dresses</span>
+                                        </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/AugART/GW/PCQC/2x/Sarees_372x232._SY232_CB568283108_.jpg"  alt="">
+                                                <span>sarees</span>
+                                            </div>
+                                            <a href="#" style="margin-top:18px ;">See all Offers</a>
+                                    
+                            </div>
+                        </div>
+                       </div>
+                        <div class="col   ps-2 pe-2 ">
+                           
+                            <div class="bg-white  p-3">
+                                <h4>Minimum 50% off | Home, kitchen & more</h4>
+                                <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/AugART_24/MSO/SHOVELLER/PC_QC_372x232_03._SY232_CB568075485_.jpg"  alt="">
+                                            <span>Top</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/AugART_24/MSO/SHOVELLER/PC_QC_372x232_02._SY232_CB568075485_.jpgg"  alt="">
+                                            <span> Kurtas </span>
+                                        </div>
+                                </div>
+                                 <div class="row m-0 h-25 mt-3">
+                                        <div class="a_part-4 col-6 ps-2">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/AugART_24/MSO/SHOVELLER/PC_QC_372x232_04._SY232_CB568075485_.jpghttps://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2024/AugART/GW/PCQC/2x/Dresses_372x232._SY232_CB568283108_.jpg"  alt="">
+                                            <span>Dresses</span>
+                                        </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/AugART_24/MSO/SHOVELLER/PC_QC_372x232_01._SY232_CB568075485_.jpg"  alt="">
+                                                <span>sarees</span>
+                                            </div>
+                                            <a href="#" style="margin-top:18px ;">See all Offers</a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> 
+             </div>
+                <div class="a_main4  bg-white">
+                    <h4 style="display: inline-block;">Blockbuster deals </h4> <a href="#" style="display: inline-block; margin-left: 70px;" &nbps&nbps&nbps&nbps> See all Offers</a>
+
+                    <div id="carouselExample2" class="carousel slide h-100">
+                        <div class="carousel-inner h-100">
+                          <div class="carousel-item active h-100">
+                            
+                            <div class="w-100 h-100 bg-white">
+
+                                <div class="row m-0 h-100">
+                                    
+                                    <div class="col p-0 h-100">                                        
+                                        <a href="#">
+                                            <img  src="https://m.media-amazon.com/images/I/513p8BwV-RL._SX679_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/51wWy5guQSL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/31Wen6gm2JL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41eRbZPyRqL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img  src="https://m.media-amazon.com/images/I/41QhGN3SP3L._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item ">
+                           
+                            <div class="w-100 h-100  h-100">
+                                <div class="row m-0 h-100">
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img height="100" src="https://m.media-amazon.com/images/I/41QhGN3SP3L._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41RnOYN7cML._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/31+JRXdZbeL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41UNdD2+C0L._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41olG+V0K-L._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            
+                            <div class="w-100 h-100 ">
+                                <div class="row m-0 h-100">
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41olG+V0K-L._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="3">
+                                            <img src="https://m.media-amazon.com/images/I/31gxZpu1JrL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/31zp1nhfoKL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41f+oPA54uL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/4143CSktumL._SR480,440_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                 </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev a_cc_main3 bg-white rounded-end top-50 start-0 translate-middle-y shadow-lg" style="opacity:1;" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left text-body-tertiary fs-3"></i>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next a_cc_main3 bg-white rounded-start top-50 end-0 translate-middle-y shadow-lg" style="opacity:1;" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right text-body-tertiary fs-3"></i>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
+                <div class="a_main5 ">
+                    <div id="carouselExample3" class="carousel slide h-100">
+                        <div class="carousel-inner h-100">
+                          <div class="carousel-item active h-100 bg-white">
+                    
+                            <div class="w-100 h-100 ">
+                                <div class="row m-0 h-100">
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/61aP4bbCOcL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/61VF6vXx6RL._AC_SY200_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/61KNCfHKL0L._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/61fVpsa8rtL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/51jpdwx38ML._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>                                  
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">                           
+                            <div class="w-100 h-100 ">
+                                <div class="row m-0 h-100">
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/61bT2guXfyL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img  src="https://m.media-amazon.com/images/I/71tDXQ0XxrL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41y1WiAk0CL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41Rt-JZ1dyL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/51Ijn8LTCDL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/51Ijn8LTCDL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">                            
+                            <div class="w-100 h-100 ">
+                                <div class="row m-0 h-100">
+                                    <div class="col p-0 h-100">
+                                        <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/81Dvi9zuV-L._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                         <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/41qQMJqDiDL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                         <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/719IPAWzcqL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                         <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/51n+OG3t0VL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                         <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/71HR7FnBHBL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col p-0 h-100">
+                                         <a href="#">
+                                            <img src="https://m.media-amazon.com/images/I/71K-ldEcNDL._AC_SY400_.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev a_cc_main5 bg-white rounded-end top-50 start-0 translate-middle-y shadow-lg" style="opacity:1;" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left text-body-tertiary fs-3"></i>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next a_cc_main5 bg-white rounded-start top-50 end-0 translate-middle-y shadow-lg" style="opacity:1;" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right text-body-tertiary fs-3"></i>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="a_main6">
+                    <div class=" ps-3 pe-3 a_mainbtmCon position-relative h-100 " style="z-index: 2000;">
+                        <div class="row m-0 h-100">
+                            <div class="col  ps-2 pe-2 h-100">
+                                <div class="bg-white d-block p-3 ">
+                                    <h4>Deals on cloths that suits your budget</h4>
+                                    <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 120px; width: 100px; " src="https://m.media-amazon.com/images/I/71BLkd39VKL._AC_SY340_.jpg"  alt="">
+                                            <span>Budget | Under ₹10,00</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-3 h-25">
+                                            <img style="height: 120px; " src="https://m.media-amazon.com/images/I/61D7nbhylBL._AC_SY340_.jpg"  alt="">
+                                            <span>Mid range | ₹10,000 - ₹25,00</span>
+                                        </div>
+                                     </div>
+                                        <div class="row m-0 h-25">
+                                            <div class="a_part-4 col-6 ps-2">
+                                                <img style="height: 120px; " src="https://m.media-amazon.com/images/I/61SgADmAyDL._AC_SY340_.jpg"  alt="">
+                                                <span>Premium | ₹25,000 - ₹40,00</span>
+                                            </div>
+                                                <div class="a_part-4 col-6 ps-2 pb-2">
+                                                    <img style="height: 120px; " src="https://m.media-amazon.com/images/I/81YcqY2-FxL._AC_SY340_.jpg"  alt="">
+                                                    <span>Ultra premium | Above ₹40,00</span>
+                                                </div>
+                                    <a href="#">See all Offers</a>
+
+                                        </div>
+                                        
+                            </div>
+                        </div>
+                            <div class="col  ps-2 pe-2 ">
+                                <div class="bg-white  p-3">
+                                    <h4>Minimum 50% off | Home, kitchen & more</h4>
+                                    <div class="row m-0 h-25">
+                                            <div class="a_part-4 col-6 pb-2 h-25 ">
+                                                <img style="height: 140px; " src="https://m.media-amazon.com/images/I/616iBhe2roL._AC_SY290_.jpg"  alt="">
+                                                <span> Kitchen essentails</span>
+                                            </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                                <img style="height: 140px; " src="https://m.media-amazon.com/images/I/71eUwDk8z+L._AC_SY290_.jpg"  alt="">
+                                                <span>Home decor </span>
+                                            </div>
+                                    </div>
+                                     <div class="row m-0 h-25 mt-1">
+                                            <div class="a_part-4 col-6 ps-2">
+                                                <img style="height: 140px; " src="https://m.media-amazon.com/images/I/710UZpVTAHL._AC_SY290_.jpg"  alt="">
+                                                <span>Furniture</span>
+                                            </div>
+                                                <div class="a_part-4 col-6 ps-2 pb-2">
+                                                    <img style="height: 140px; " src="https://m.media-amazon.com/images/I/616RCgaeZ4L._AC_SY290_.jpg"  alt="">
+                                                    <span>Home Improvement</span>
+                                                </div>
+                                                <a href="#" style="margin-top:11px ;">See all Offers</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col  ps-2 pe-2  p-0">
+                                <div class="bg-white  p-2">
+                                    <h4>Great Freedom Sale | Shop now</h4>
+                                    <img style="height:352px; margin-bottom: 18px;" src="https://m.media-amazon.com/images/I/61P8rRWzXUL._AC_SY290_.jpg" alt="">
+                                    <a href="#">See all Offers</a>
+                                </div>
+                            </div>
+                            <div class="col   ps-2 pe-2 ">
+                                <div class="bg-white p-3" style="height: 470px;">
+                                    <h4>Sign in for your best experience</h4>     
+                                                                
+                        
+                        
+                                 <img style="height: 370px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/December/CC/PC_758x608_1._SY608_CB572341311_.jpg" alt="">  
+                                 
+                                </div>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="a_main7 ">
+                    <div class="row m-0 h-100">
+                        <div class="col  ps-2 pe-2 h-100">
+                            <div class="bg-white d-block p-3 ">
+                                <h4>Amazon Fresh | Great prices | Fruits &</h4>
+                                <div class="row m-0 h-25">
+                                    <div class="a_part-4 col-6 pb-2 h-25 ">
+                                        <img style="height: 100px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/BTF_QCs/Feb24/F2V/PC2/FV_PC_01._SY232_CB583550389_.jpg"  alt="">
+                                        <span>fruits</span>
+                                    </div>
+                                    <div class="a_part-4 col-6 ps-2 pb-3 h-25">
+                                        <img style="height: 100px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/BTF_QCs/Feb24/F2V/PC2/FV_PC_02._SY232_CB583550389_.jpg"  alt="">
+                                        <span>vegetables</span>
+                                    </div>
+                                 </div>
+                                    <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 ps-2">
+                                            <img style="height: 100px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/BTF_QCs/Feb24/F2V/PC2/FV_PC_03._SY232_CB583550389_.jpg"  alt="">
+                                            <span>seasons sale</span>
+                                        </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2">
+                                                <img style="height:100px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/BTF_QCs/Feb24/F2V/PC2/FV_PC_04._SY232_CB583550389_.jpg" alt="">
+                                                <span>premium & exotic</span>
+                                            </div>
+                                <a href="#">See all Offers</a>
+                            </div>
+                                    
+                        </div>
+                    </div>
+                    <div class="col  ps-2 pe-2  p-0">
+                        <div class="bg-white p-2">
+                            <h4>Great Freedom Sale | Shop now</h4>
+                            <img style="height:266px; margin-bottom: 18px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2X/Pregnancy_Supplements._SY232_CB667651363_.jpg" alt="">
+                            <a href="#">See all Offers</a>
+                        </div>
+                    </div>
+                        <div class="col  ps-2 pe-2 ">
+                            <div class="bg-white  p-3">
+                                <h4>Essentials for Expecting Mothers</h4>
+                                <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 75px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2X/Pregnancy_Supplements._SY232_CB667651363_.jpg"  alt="">
+                                            <span>pregnancy suppliments</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                            <img style="height: 75px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2X/Maternity_Sleep__Loungewear._SY232_CB667651363_.jpg"  alt="">
+                                            <span> Maternity Sleep & Loungewear
+                                                 </span>
+                                        </div>
+                                </div>
+                                 <div class="row m-0 h-25 mt-3">
+                                        <div class="a_part-4 col-6 ps-2">
+                                            <img style="height: 75px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2X/Maternity_pillows._SY232_CB667651363_.jpg"  alt="">
+                                            <span>Maternity pillows</span>
+                                        </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2">
+                                                <img style="height: 75px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/2X/Maternity_Skin_care._SY232_CB667651363_.jpg"  alt="">
+                                                <span>Maternity Skin care</span>
+                                            </div>
+                                            <a href="#" style="margin-top:18px ;">See all Offers</a>
+                                    
+                            </div>
+                        </div>
+                       </div>
+                        <div class="col   ps-2 pe-2 ">
+                           
+                            <div class="bg-white  p-3">
+                                <h4>One stop shop for all your wedding shopping</h4>
+                                <div class="row m-0 h-25">
+                                        <div class="a_part-4 col-6 pb-2 h-25 ">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Wedding-Store/btf/For_her_2x._SY232_CB653484282_.jpg"  alt="">
+                                            <span>Shop for her</span>
+                                        </div>
+                                        <div class="a_part-4 col-6 ps-2 pb-2 h-25">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Wedding-Store/btf/For_him_2x._SY232_CB653484282_.jpg"  alt="">
+                                            <span> shop for him </span>
+                                        </div>
+                                </div>
+                                 <div class="row m-0 h-25 mt-3">
+                                        <div class="a_part-4 col-6 ps-2">
+                                            <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Wedding-Store/btf/Pooja_essentials_2x._SY232_CB653484282_.jpg"  alt="">
+                                            <span>pooja essentials</span>
+                                        </div>
+                                            <div class="a_part-4 col-6 ps-2 pb-2">
+                                                <img style="height: 90px; " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Wedding-Store/btf/Explore_more_2x._SY232_CB653484282_.jpg"  alt="">
+                                                <span>explore store</span>
+                                            </div>
+                                            <a href="#" style="margin-top:18px ;">See all Offers</a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> 
+                </div>
+                <div class="a_main8 a_tbdr">
+                    <div class="row m-0">
+                        <div class="col-8 offset-2">
+                            <a href="#">
+                                <img  src="https://m.media-amazon.com/images/I/513p8BwV-RL._SX679_.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
                 </div>
                 <div class="a_main12">
-                    
+                                        
                     <div><h5>Your recently viewed items and featured recommendations</h5>
                     <p><i>After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in</i></p></div>
-                  <div class="right"><a href="#">› View or edit your browsing history</a></div>      
-
+                  <div class="right"><a href="#">› View or edit your browsing history</a></div></div>      
+</div>
         </main>
         <footer>
             <div class="f_top">Back to top</div>
             <div class="f_center">
                 <div class="row m-0 f_btm">
                     <div class="col-12">
-                        <div class="row h-100 text-start">
+                        <div class="row m-0 h-100 text-start">
                             <div class="col">
                                 <ul> <h5>Get to Know Us</h5>
                                     <li class="btn btn-link p-50">
@@ -647,7 +1259,7 @@
             <div class="f_bottom">
                 <div class="row m-0 f_btm">
                 <div class="col-8 offset-2">
-                    <div class="row h-100 text-start">
+                    <div class="row m-0 h-100 text-start">
                         <div class="col">
                             <ul>
                                 <li class="btn btn-link">
